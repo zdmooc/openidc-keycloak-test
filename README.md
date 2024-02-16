@@ -17,7 +17,7 @@ $compose logs -f
 # test session cache
 $compose up -d keycloak openidc2
 ```
-
+test
 Until setup is fully automated see echo:s in [testclient1/keycloak-setup/import.sh](https://github.com/Reposoft/openidc-keycloak-test/blob/keycloak-setup-import/build-contracts/keycloak-setup/import.sh).
 
 If you can access `ports` locally, access the example site at http://openidc/, with something like this in `/etc/hosts` (IP being you docker machine's):
